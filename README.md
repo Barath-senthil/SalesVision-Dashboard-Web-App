@@ -1,63 +1,62 @@
-# InsightBoard Pro - Sales Analytics Dashboard 📊
+# 🚀 InsightBoard Pro - Interactive Sales Analytics Dashboard
 
-## Overview
-InsightBoard Pro is a modern web-based sales analytics dashboard built using HTML, CSS, JavaScript, and Chart.js.
-
-The project allows users to:
-- Upload CSV files
-- Analyze sales and profit data
-- Filter products dynamically
-- View interactive charts
-- Track KPIs in real-time
-- Export filtered datasets
-
-The dashboard is designed to provide a clean and interactive business intelligence experience directly in the browser.
+## 🔗 Live Website
+🌐 https://dashboard99.neocities.org/gen%20analysis/
 
 ---
 
-## 🚀 Features
+## 📌 About The Project
 
-- Drag & Drop CSV Upload
-- Real-Time KPI Tracking
-- Interactive Sales & Profit Charts
-- Product Search Functionality
-- Category Filtering
-- Data Export Option
-- Pagination Support
-- Responsive Dashboard Design
-- Dark Mode Toggle
-- Dynamic Data Table
+InsightBoard Pro is a fully interactive Sales Analytics Dashboard designed to transform raw CSV sales data into meaningful business insights using dynamic charts, KPI tracking, and real-time filtering.
+
+This project focuses on combining modern frontend development with business intelligence concepts to create a responsive and visually engaging analytics platform.
+
+Users can upload CSV files and instantly analyze:
+- Sales Performance
+- Profit Insights
+- Product Trends
+- Category Analysis
+- Regional Performance
+
+through interactive charts and smart dashboard components.
 
 ---
 
-## 📌 KPIs Included
+## ✨ Core Features
 
+✅ Drag & Drop CSV Upload  
+✅ Dynamic KPI Cards  
+✅ Interactive Charts using Chart.js  
+✅ Product Search System  
+✅ Category Based Filtering  
+✅ CSV Export Functionality  
+✅ Dark / Light Mode Toggle  
+✅ Responsive Dashboard UI  
+✅ Pagination Support  
+✅ Real-time Table Updates  
+
+---
+
+## 📊 Dashboard Analytics
+
+### KPI Tracking
 - Total Sales
 - Total Profit
 - Total Orders
 
----
+### Visualization Components
+- Sales Trend Analysis
+- Profit Distribution Charts
+- Product Performance Tracking
 
-## 📊 Dashboard Components
-
-### Sales Analysis
-- Sales Trend Visualization
-- Product-wise Sales Analysis
-- Category-based Filtering
-
-### Profit Analysis
-- Profit Comparison Charts
-- Revenue vs Profit Insights
-
-### Data Management
-- CSV File Upload
-- Dynamic Table Rendering
-- Search & Filter System
-- Export Filtered Data
+### Data Controls
+- Search Products
+- Filter by Categories
+- Export Processed CSV Data
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Built With
 
 - HTML5
 - CSS3
@@ -66,56 +65,10 @@ The dashboard is designed to provide a clean and interactive business intelligen
 
 ---
 
-## 📈 Functionalities Implemented
+## 📂 Project Structure
 
-- File Upload using CSV
-- Interactive Charts using Chart.js
-- Dynamic DOM Manipulation
-- Pagination Logic
-- Search Filtering
-- Theme Switching (Dark Mode)
-- Data Export Functionality
-
----
-
-## 🎯 Project Objective
-
-The objective of this project is to create an interactive analytics dashboard that helps users visualize and analyze sales data efficiently using frontend web technologies.
-
-This project demonstrates skills in:
-- Frontend Development
-- Data Visualization
-- Dashboard Design
-- JavaScript DOM Manipulation
-- Interactive UI Development
-
----
-
-## 📂 Files Included
-
-- index.html
-- style.css
-- script.js
-- CSV Dataset
-
----
-
-## 🔥 Key Highlights
-
-- User-friendly analytics interface
-- Interactive chart visualizations
-- Modern responsive dashboard UI
-- Real-time KPI updates
-- Easy CSV data handling
-
----
-
-## 👨‍💻 Author
-
-Barath Senthil
-
-Aspiring Data Analyst | Frontend Developer | Dashboard Enthusiast
-
----
-
-⭐ If you like this project, give it a star on GitHub!
+```bash
+├── index.html
+├── style.css
+├── script.js
+└── dataset.csv
