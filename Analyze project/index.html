@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InsightBoard Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+
+        <div class="header">
+
+            <h1>InsightBoard Pro</h1>
+
+            <button id="themeBtn">
+                Dark Mode
+            </button>
+
+        </div>
+
+        <!-- DRAG DROP -->
+
+        <div id="dropArea">
+
+            <p>Drag & Drop CSV File Here</p>
+
+            <input type="file" id="csvFile" accept=".csv">
+
+        </div>
+
+        <!-- FILTER -->
+
+        <div class="filter-section">
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search Product">
+
+            <select id="categoryFilter">
+
+                <option value="All">
+                    All Categories
+                </option>
+
+            </select>
+
+            <button id="exportBtn">
+                Export CSV
+            </button>
+
+        </div>
+
+        <!-- KPI -->
+
+        <div class="kpi-container">
+
+            <div class="card">
+
+                <h3>Total Sales</h3>
+
+                <p id="totalSales">0</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Profit</h3>
+
+                <p id="totalProfit">0</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Total Orders</h3>
+
+                <p id="totalOrders">0</p>
+
+            </div>
+
+        </div>
+
+        <!-- CHARTS -->
+
+        <div class="chart-container">
+
+            <div class="chart-card">
+
+                <canvas id="salesChart"></canvas>
+
+            </div>
+
+            <div class="chart-card">
+
+                <canvas id="profitChart"></canvas>
+
+            </div>
+
+        </div>
+
+        <!-- TABLE -->
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Product</th>
+
+                        <th>Category</th>
+
+                        <th>Region</th>
+
+                        <th>Sales</th>
+
+                        <th>Profit</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="tableBody">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <!-- PAGINATION -->
+
+        <div class="pagination">
+
+            <button id="prevBtn">Prev</button>
+
+            <span id="pageNumber">1</span>
+
+            <button id="nextBtn">Next</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
